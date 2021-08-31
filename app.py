@@ -21,6 +21,6 @@ def index():
 
 
 if __name__ == '__main__':
-    with open("C:/Users/user/anaconda notebooks/data/models/lin_reg.pkl", 'rb') as file:
+    with open("lin_reg.pkl", 'rb') as file:
         lin_reg = pickle.load(file)
     app.run(debug=True)
